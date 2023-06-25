@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 13 CRUD App
 
-## Getting Started
+This repository contains a CRUD (Create, Read, Update, Delete) application built with Next.js 13. The app allows users to log in and view AI prompts. It demonstrates the following principles and features of Next.js 13:
 
-First, run the development server:
+## Next.js 13 App Folder Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The project follows a recommended folder structure for Next.js 13 applications. The structure ensures a logical organization of files and separates concerns such as pages, components, API routes, and other utilities.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Next.js 13 Client Components vs Server Components
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Next.js 13 introduces the concept of client components and server components. Client components are rendered on the client-side, while server components are rendered on the server-side. This repository showcases the usage and benefits of both types of components.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Next.js 13 File-based Routing
 
-## Learn More
+Next.js 13 utilizes file-based routing, making it easy to create routes for different pages. This project demonstrates file-based routing, including dynamic routes and nested routes, allowing for flexible and scalable routing configurations.
 
-To learn more about Next.js, take a look at the following resources:
+## Next.js 13 Special Files
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js 13 includes special files that provide additional functionality for pages, layouts, loading states, and error handling. These files help improve the development experience and make it easier to handle common scenarios. This repository utilizes these special files effectively.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Next.js 13 Serverless Route Handlers (Next API, Full Stack Apps)
 
-## Deploy on Vercel
+Next.js 13 supports serverless route handlers, enabling the creation of Next APIs and building full-stack applications. The repository showcases the usage of serverless route handlers for handling API requests and building robust backend functionality.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Next.js 13 Metadata and Search Engine Optimization (SEO)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Next.js 13 offers features for managing metadata and optimizing the application for search engines. This repository implements best practices for adding metadata and optimizing the app for improved SEO performance.
+
+## Three Ways to Fetch Data in Next.js
+
+Next.js provides three methods for fetching data: Server Side Rendering (SSR), Static Site Generation (SSG), and Incremental Static Generation (ISR). The repository demonstrates the implementation of these methods to retrieve and render data effectively.
+
+## Installation and Usage
+
+1. Clone the repository:
