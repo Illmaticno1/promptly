@@ -33,3 +33,17 @@ Next.js provides three methods for fetching data: Server Side Rendering (SSR), S
 ## Installation and Usage
 
 1. Clone the repository:
+
+2. Install dependencies:
+
+3. Start the development server:
+
+4. Open your browser and navigate to `http://localhost:3000` to access the app.
+
+## Contributing
+
+Contributions are welcome! If you have any improvements or bug fixes to suggest, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
